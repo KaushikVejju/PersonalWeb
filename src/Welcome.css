@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(244, 244, 244);
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.intro-text {
+    text-align: center;
+}
+
+b {
+    color: rgb(85, 58, 161);
+}
+h1, .welcome-p, .intro-btns {
+    opacity: 0;
+    transform: translateY(-60px);
+    animation: floatIn 1s ease-out forwards;
+}
+h1 {
+    margin-top: 1em;
+    font-size: 2em;
+}
+.welcome-p {
+    font-size: 1em;
+}
+
+
+.intro-btns {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 1em;
+}
+button {
+    background-color: rgb(244, 244, 244); ;
+    border: none;
+    border-bottom:3px solid rgb(85, 58, 161) ;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.1s ease;
+    font-size: 1em;
+}
+
+button:hover {
+    color: rgb(85, 58, 161);
+}

@@ -1,0 +1,42 @@
+
+.intro-text {
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.aboutmedetails, .movierankings, .experience-intro, .projects-intro {
+    text-align: left;
+    font-size: 1em;
+    margin: 0 auto;
+    width: 70%;
+}
+.aboutmedetails, .experience-intro, .projects-intro {
+    border-left: 3px solid rgb(85, 58, 161);
+    padding-left: 1em;
+}
+.musicalbums, .drawings {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.albumcover {
+    width: 11em; /* Adjust the width as needed */
+    height: 10.5em; /* Adjust the height as needed */
+    border-radius: 5%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+img {
+    transition: transform 0.3s ease;
+}
+img:hover {
+    transform: scale(1.1);
+}
+
