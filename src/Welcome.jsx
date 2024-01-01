@@ -21,10 +21,11 @@ const Welcome = ({ onBeginClick }) => {
             </p>
             <div class="intro-btns">
                 <button onClick={() => handleButtonClick('home')}>Home</button>
-                <button onClick={() => handleButtonClick('about')}>About Me</button>
+                <button onClick={() => handleButtonClick('about')}>About Me </button>
                 <button onClick={() => handleButtonClick('experience')}>Experience</button>
                 <button onClick={() => handleButtonClick('projects')}>Projects</button>
             </div>
+            
             <br></br>
             {currentPage === 'home' && (
                <Home></Home>

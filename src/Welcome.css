@@ -34,7 +34,10 @@ h1 {
 .intro-btns {
     margin: 0 auto;
     width: 50%;
-    font-size: 1em;
+    font-size: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 button {
     background-color: rgb(244, 244, 244); ;
