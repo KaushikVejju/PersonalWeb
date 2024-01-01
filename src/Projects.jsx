@@ -1,6 +1,5 @@
 import React from 'react';
 import './Projects.css';
-import github from './github.png'
 
 const Projects = ({ onBeginClick }) => {
   return (
@@ -50,7 +49,7 @@ const Projects = ({ onBeginClick }) => {
                 <div class="project">
                     <h3 class="proj-name"> <b>Random Punch</b> </h3>
                     <p class="project-description">
-                        Java-based game simulating a fight between two players. Special moves included.
+                        A Java-based game simulating a fight between two players. Special moves included.
                     </p>
                     <p class="project-description">
                         <b class="tech">Java, JUnit</b>

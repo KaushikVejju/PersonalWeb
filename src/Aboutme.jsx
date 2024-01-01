@@ -35,7 +35,7 @@ const AboutMe = ({ onBeginClick }) => {
 
             <h2> Movie Rankings</h2>
             <p  class="aboutmedetails">
-                I think I have an <i>elaborate</i> movie taste. I love mysteries, dramas, and action movies. Here are my favorite films for all time, definitely check them out! 
+                I think I have an <i>immaculate</i> movie taste. I love mysteries, dramas, and action movies. Here are my favorite films for all time, definitely check them out! 
             </p>
             <p class="movierankings">
                 <ol>
