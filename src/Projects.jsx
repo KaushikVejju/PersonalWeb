@@ -21,6 +21,9 @@ const Projects = ({ onBeginClick }) => {
                     <p class="project-description">
                         <b class="tech">Django, JavaScript, Algolia API, SQLite3</b>
                     </p>
+                    <form action="https://github.com/KaushikVejju/SIFSearch" method="get" target="_blank">
+                        <button class="project-btn" type="submit">GitHub Repo</button>
+                    </form>
                 </div>
                 <br></br>
 
@@ -34,6 +37,9 @@ const Projects = ({ onBeginClick }) => {
                     <p class="project-description">
                         <b class="tech">python, pandas, NumPy, yfinance, matplotlib</b>
                     </p>
+                    <form action="https://github.com/KaushikVejju/Yfinance-EDA-Trading-Strategy" method="get" target="_blank">
+                        <button class="project-btn" type="submit">GitHub Repo</button>
+                    </form>
                 </div>
                 <br></br>
                 <div class="project">
@@ -60,6 +66,9 @@ const Projects = ({ onBeginClick }) => {
                     <p class="project-description">
                         <b class="tech">Java, JUnit</b>
                     </p>
+                    <form action="https://github.com/KaushikVejju/Random-Punch" method="get" target="_blank">
+                        <button class="project-btn" type="submit">GitHub Repo</button>
+                    </form>
                 </div>
             </div>
            

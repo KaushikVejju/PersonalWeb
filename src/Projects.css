@@ -14,7 +14,7 @@
 }
 .tech-dev {
     border: 1px solid black;
-    width: 80%;
+    width: 60%;
 }
 .tech {
     color: black;
@@ -26,4 +26,15 @@
     width: 72%;
     margin: 0 auto;
     text-align: center;
+}
+
+.project-btn {
+    background-color: rgb(215, 215, 215); ;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.1s ease;
+    font-size: 1em;
 }
