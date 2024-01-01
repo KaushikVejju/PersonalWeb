@@ -17,6 +17,7 @@ const Projects = ({ onBeginClick }) => {
                     <p class="project-description">
                         A Django-based search application designed for an on-campus investment fund.
                     </p>
+                    <hr class="tech-dev"></hr>
                     <p class="project-description">
                         <b class="tech">Django, JavaScript, Algolia API, SQLite3</b>
                     </p>
@@ -29,6 +30,7 @@ const Projects = ({ onBeginClick }) => {
                         An overview of automative stock data provided yfinance, followed by the development
                         of a trading strategy for one of the tickers.
                     </p>
+                    <hr class="tech-dev"></hr>
                     <p class="project-description">
                         <b class="tech">python, pandas, NumPy, yfinance, matplotlib</b>
                     </p>
@@ -40,6 +42,8 @@ const Projects = ({ onBeginClick }) => {
                         A tool designed to help developers create and deploy their projects with ease through templated,
                         out-of-the-box features.
                     </p>
+                    <hr class="tech-dev"></hr>
+
                     <p class="project-description">
                         <b class="tech">React, Node,js, Docker, YAML, GitHub Actions</b>
                     </p>
@@ -51,6 +55,8 @@ const Projects = ({ onBeginClick }) => {
                     <p class="project-description">
                         A Java-based game simulating a fight between two players. Special moves included.
                     </p>
+                    <hr class="tech-dev"></hr>
+
                     <p class="project-description">
                         <b class="tech">Java, JUnit</b>
                     </p>
