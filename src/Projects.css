@@ -38,3 +38,19 @@
     transition: color 0.1s ease;
     font-size: 1em;
 }
+
+/* React Icon Styling */
+.icon-github {
+    font-size: 3em;
+    color: rgb(85, 58, 161);
+}
+
+.icon-github:hover {
+    transform: scale(1.05);
+    color: rgb(57, 29, 134);
+
+}
+
+.projects-title {
+    margin-bottom: 0.5em;
+}

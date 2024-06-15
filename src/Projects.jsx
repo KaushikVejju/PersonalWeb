@@ -1,11 +1,17 @@
 import React from 'react';
 import './Projects.css';
+import { FaGithubSquare } from "react-icons/fa";
 
 const Projects = ({ onBeginClick }) => {
+
+
   return (
         <div class="my-projects">
-           <h2> My Projects </h2>
-           <p class="projects-intro">
+            <h2 class="projects-title"> My Projects </h2>
+            <a href="https://github.com/KaushikVejju" target="_blank">
+                <FaGithubSquare class="icon-github" />
+            </a>
+            <p class="projects-intro">
                 Shown below are some of the coding projects I've worked on, both individually and with a group.
                 Feel free to reach out if you want to work on something together. You can find
                 these projects <a href="https://github.com/KaushikVejju">here</a>.
@@ -42,20 +48,7 @@ const Projects = ({ onBeginClick }) => {
                     </form>
                 </div>
                 <br></br>
-                <div class="project">
-                    <h3 class="proj-name"><b> Manifest: Project Creation Platform</b></h3>
-                    <p class="project-description">
-                        A tool designed to help developers create and deploy their projects with ease through templated,
-                        out-of-the-box features.
-                    </p>
-                    <hr class="tech-dev"></hr>
-
-                    <p class="project-description">
-                        <b class="tech">React, Node,js, Docker, YAML, GitHub Actions</b>
-                    </p>
-                </div>
-                <br></br>
-
+ 
                 <div class="project">
                     <h3 class="proj-name"> <b>Random Punch</b> </h3>
                     <p class="project-description">
@@ -73,8 +66,10 @@ const Projects = ({ onBeginClick }) => {
             </div>
            
         </div>
-       
+
   );
 };
+
+
 
 export default Projects;
