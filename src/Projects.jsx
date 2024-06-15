@@ -8,7 +8,7 @@ const Projects = ({ onBeginClick }) => {
   return (
         <div class="my-projects">
             <h2 class="projects-title"> My Projects </h2>
-            <a href="https://github.com/KaushikVejju" target="_blank">
+            <a href="https://github.com/KaushikVejju" target="_blank" rel="noreferrer">
                 <FaGithubSquare class="icon-github" />
             </a>
             <p class="projects-intro">
